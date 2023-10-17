@@ -1,0 +1,40 @@
+/*
+ HEADER
+ HEADER
+ HEADER
+*/
+
+.page-header{
+    background-color: #A496FC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heder-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.nav-list {
+  display: none;
+}
+
+.menu-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
+
+.menu-button-icon {
+  stroke: #ffffff;
+}
+.menu-button-icon-close {
+    stroke: #1c2225;
+    width: 36px;
+    height: 36px;
+}
+
