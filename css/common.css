@@ -19,11 +19,12 @@ img {
   display: block;
 }
 
-.list {
+
+li, .list {
   list-style-type: none;
 }
 
-.link {
+a, .link {
   text-decoration: none;
 }
 
