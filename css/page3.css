@@ -1,0 +1,150 @@
+.page2-first-section {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1158px) {
+  .page2-first-section {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.section-one-page2-header {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1158px) {
+  .section-one-page2-header {
+  }
+}
+
+.first-section-page2-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-bottom: 54px;
+}
+@media screen and (min-width: 1158px) {
+  .first-section-page2-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 54px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .first-section-page2-content {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 54px;
+  }
+}
+
+.first-section-page2-image {
+  width: 320px;
+}
+@media screen and (min-width: 1158px) {
+  .first-section-page2-image {
+    width: 559px;
+    height: 371px;
+  }
+}
+
+.hob-header {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.hob-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1158px){
+  .hob-text{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.hob-text{
+  text-align: left;
+}
+
+.hobis{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media screen and (min-width: 320px) and (max-width: 1158px){
+  .hobis{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+.hobis-r{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1158px){
+  .hobis-r{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
+.hob-con{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1158px){
+  .img-w{
+    width: 320px;
+  }
+}
